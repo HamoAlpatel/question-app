@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>♥Rashad♥</h1>
+        <h2><i class="fa-solid fa-trophy"></i><span>0</span></h2>
+    </header>
+    <div class="startScreen">
+        <button id="startButton">Start</button>
+    </div>
+    <div class="parent">
+    <div class="imags">
+        <img src="imags/one.png" class="active" alt="">
+        <img src="imags/suc.png" alt="">
+        <img src="imags/two.png" alt="">
+        <img src="imags/there.png" alt="">
+    </div>
+
+    <div id="displayContainer">
+        <div class="header">
+            <div class="numberOfCount">
+                <span class="NumberOfQuestion">1 of 3 Que</span>
+            </div>
+            <div class="timer">
+                <i class="fa-solid fa-stopwatch-20"></i>
+                <span class="timeLeft">20s</span>
+            </div>
+        </div>
+        <div id="container">
+        </div>
+        <div class="buttons">
+
+            <button id="prev" >Prev</button>
+            <button id="next">Next</button>
+        </div>
+    </div>
+    <div class="progress">
+        <h1>Progress</h1>
+        <div class="prog">
+            <div class="progs"></div>
+        </div>
+    </div>
+</div>
+    <div class="scoreContainer hide">
+        <div id="userScore"></div>
+        <button id="restart">Restart</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
